@@ -1,0 +1,140 @@
+html{
+    overflow: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #F7F7F7;
+    color: rgb(0, 0, 0);
+    scroll-behavior: smooth;
+}
+
+/*scroll bar*/
+body::-webkit-scrollbar{
+width: 10px;
+}
+body::-webkit-scrollbar-track{
+background: #F7F7F7; 
+}
+body::-webkit-scrollbar-thumb{
+background-color: #7848FF;   
+border-radius: 20px;       
+border: 3px solid #F7F7F7;
+}
+
+/* nav bar */
+.navbar {
+    padding: 10px;
+    overflow: hidden;
+    background-color: #F7F7F7;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+}
+.navbar a {
+    float: left;
+    display: inline;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 10px;
+    margin: 28px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    color: #7848FF;
+    border-radius: 10px;
+}
+
+.navbar a:active {
+    color: black;
+    transform: translateY(4px);
+}
+
+.navbar #startNow{
+    text-align: center;
+    padding: 4px 36px;
+    border-radius: 10px;
+    border: 2px solid #7848FF;
+    background-color: transparent;
+    color: #7848FF;
+    margin: 28px;
+    font-size: 16px;
+}
+.navbar #startNow:hover{
+    background-color: #7848FF;
+    color: white;
+}
+
+/*Home section*/
+.home{
+    overflow: auto;
+    margin-top: 10%;
+    margin-left: 6%;
+}
+
+.purple{
+    display: inline;
+    color: #7848FF;
+    margin: 0;
+    padding: 0;
+}
+
+.mainHeader{
+    width: 100%;
+    font-size: 62px;
+}
+
+.subHeader{
+    width: 90%;
+    font-size: 25px;
+}
+
+.getStartedButton{
+    color: white;
+    font-size: 20px;
+    margin: 2%;
+    margin-top: 6%;
+    margin-left: 0;
+    padding: 1.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #7848FF;
+    border-color: transparent;
+    border-radius: 12px;
+
+}
+
+.about{
+    overflow: auto;
+    margin-top: 15%;
+    margin-left: 6%;
+    margin-right: 6%;
+    text-align: center;
+}
+
+.pricing{
+    text-align: center;
+    overflow: auto;
+    margin-top: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.contact{
+    text-align: center;
+    overflow: auto;
+    margin-top: 15%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+
+
+.footer{
+overflow: auto;
+margin-top: 15%;
+
+}
+
+
+
+
+

@@ -1,0 +1,41 @@
+.pricing-columns {
+    margin-top: 5%;
+    float: left;
+    width: 31%;
+    padding: 8px;
+    border-radius: 24px;
+  }
+  
+  .price {
+    background-color: white;
+    list-style-type: none;
+    border: 1px solid white;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    border-radius: 24px;
+  }
+
+  
+  .price .price-header {
+    text-align: left;
+    color: #7848FF;
+    font-size: 22px;
+    padding-bottom: 0;
+
+  }
+  
+  .price li {
+    border-bottom: 1px transparent;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .price .number {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+  }
+  
