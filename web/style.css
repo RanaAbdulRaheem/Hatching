@@ -66,8 +66,8 @@ border: 3px solid #F7F7F7;
 /*Home section*/
 .home{
     overflow: auto;
-    margin-top: 10%;
-    margin-left: 6%;
+    padding-top: 10%;
+    padding-left: 6%;
 }
 
 .purple{
@@ -104,26 +104,26 @@ border: 3px solid #F7F7F7;
 
 .about{
     overflow: auto;
-    margin-top: 15%;
-    margin-left: 6%;
-    margin-right: 6%;
+    padding-top: 10%;
+    padding-left: 6%;
+    padding-right: 6%;
     text-align: center;
 }
 
 .pricing{
     text-align: center;
     overflow: auto;
-    margin-top: 15%;
-    margin-left: 20%;
-    margin-right: 20%;
+    padding-top: 10%;
+    padding-left: 0%;
+    padding-right: 0%;
 }
 
 .contact{
     text-align: center;
     overflow: auto;
-    margin-top: 15%;
-    margin-left: 6%;
-    margin-right: 6%;
+    padding-top: 15%;
+    padding-left: 6%;
+    padding-right: 6%;
 }
 
 
