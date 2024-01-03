@@ -8,7 +8,7 @@ main {
 .card-basic,
 .card-standard,
 .card-premium {
-  margin: 0 2rem 1rem 0;
+  margin: 0 0.5rem 1rem 0;
   padding: 0 0 0.5rem 0;
   width: 15rem;
   background: white;
@@ -26,12 +26,9 @@ main {
 }
 .card-header {
   height: 5rem;
-  text-transform: uppercase;
-  font-weight: 700;
   font-size: 0.8rem;
-  padding: 1rem 0;
+  padding: 0;
   color: #fff;
-  clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
 }
 .header-basic,
 .btn-basic {
@@ -55,7 +52,21 @@ main {
 .card-element-container {
   color: black;
   list-style: none;
+  padding-left: 20px;
+}
+.card-element {
+ font-size: 17.26px;
+ line-height: 22.19px;
+ word-wrap: break-word
 }
 .card-element-hidden {
   display: none;
+}
+
+.number{
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-size: 28px;
+  color: black;
 }
