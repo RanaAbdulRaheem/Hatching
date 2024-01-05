@@ -6,6 +6,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    margin: 0;
+}
+
 /*scroll bar*/
 body::-webkit-scrollbar{
 width: 10px;
@@ -60,6 +64,7 @@ border: 3px solid #F7F7F7;
 }
 .navbar #startNow:hover{
     background-color: #7848FF;
+    cursor: pointer;
     color: white;
 }
 
@@ -102,6 +107,16 @@ border: 3px solid #F7F7F7;
 
 }
 
+.getStartedButton:hover{
+    background-color: #5d25f5;
+    cursor: pointer;
+}
+
+.getStartedButton:active {
+    background-color: #7848FF;
+    box-shadow: 0 5px #ffffff;
+    transform: translateY(4px);
+  }
 .about{
     overflow: auto;
     padding-top: 10%;
@@ -121,7 +136,7 @@ border: 3px solid #F7F7F7;
 .contact{
     text-align: center;
     overflow: auto;
-    padding-top: 15%;
+    padding-top: 10%;
     padding-left: 6%;
     padding-right: 6%;
 }
@@ -129,9 +144,10 @@ border: 3px solid #F7F7F7;
 
 
 .footer{
-overflow: auto;
-margin-top: 15%;
-
+    overflow: auto;
+    margin-top: 15%;
+    background-color: #fff;
+    text-align: center;
 }
 
 

@@ -1,5 +1,4 @@
 function callForm(){
-    console.log("lol")
     var body = document.body;
     while(body.firstChild){
         body.removeChild(body.lastChild);
@@ -34,17 +33,38 @@ function callForm(){
 
 }
 
+function openForm() {
+    document.getElementById("myForm").style.display = "block";
+}
+  
+function closeForm(){
+    document.getElementById("myForm").style.display = "none";
+}
 
+function submitForm(){
+
+    //checks for form completion
+    //all slots are filled
+    var name = document.getElementById('businessName').value
+    var email = document.getElementById('email').value
+    var phone = document.getElementById('phoneNumber').value
+
+    //appears in chrome (front-end) terminal
+    console.log('name: ', name);
+    console.log('email: ', email);
+    console.log('phone: ', phone);
+
+    window.open('mailto:donald@hatchingapp.com?subject=name&body=phone+email');
+
+    //closes form
+    document.getElementById("myForm").style.display = "none";
+}
 
 
 document.addEventListener('DOMContentLoaded', function () {
-    document.getElementById('getStartedNow').addEventListener('click',callForm);
-    document.getElementById('getStartedNow2').addEventListener('click',callForm);
-    document.getElementById('startNow').addEventListener('click',callForm);
+    document.getElementById('getStartedNow').addEventListener('click',openForm);
+    document.getElementById('getStartedNow2').addEventListener('click',openForm);
+    document.getElementById('startNow').addEventListener('click',openForm);
+    document.getElementById('submitButton').addEventListener('click',submitForm);
 
-    document.addEventListener('click', function(e){     
-        if(e.target.id.toString().includes('card-card')){
-            offProject(e.target.id.toString().charAt(e.target.id.toString().length-1));
-        }
-    });
 });
