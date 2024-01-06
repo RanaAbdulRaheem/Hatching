@@ -52,6 +52,12 @@ border: 3px solid #F7F7F7;
     transform: translateY(4px);
 }
 
+@media screen and (max-width: 600px) {
+    .navbar {
+        display: none;
+    }
+}
+
 .navbar #startNow{
     text-align: center;
     padding: 4px 36px;
