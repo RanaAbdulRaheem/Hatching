@@ -68,3 +68,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('submitButton').addEventListener('click',submitForm);
 
 });
+
+function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+}
