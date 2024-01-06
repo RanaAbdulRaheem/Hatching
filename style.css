@@ -52,11 +52,7 @@ border: 3px solid #F7F7F7;
     transform: translateY(4px);
 }
 
-@media screen and (max-width: 600px) {
-    .navbar {
-        display: none;
-    }
-}
+
 
 .navbar #startNow{
     text-align: center;
@@ -96,6 +92,20 @@ border: 3px solid #F7F7F7;
 .subHeader{
     width: 90%;
     font-size: 25px;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        display: none;
+    }
+
+    .mainHeader{
+        font-size: 38px;
+    }
+    
+    .subHeader{
+        font-size: 18px;
+    }
 }
 
 .getStartedButton{
