@@ -100,6 +100,10 @@ border: 3px solid #F7F7F7;
     display: none;
 }
 
+.mainPhones{
+    display: none;
+}
+
 @media screen and (max-width: 600px) {
     .navbar {
         display: none;
@@ -107,6 +111,10 @@ border: 3px solid #F7F7F7;
 
     .home{
         text-align: center;
+        
+    }
+    .mainPhones{
+        display: inline;
     }
 
     .home .right{
@@ -116,9 +124,9 @@ border: 3px solid #F7F7F7;
     }
 
     .home .left{
+        display: none;
         width: 0%;
         float: none;
-        margin-left: 22%;
     }
 
     #homeImgPhones{
