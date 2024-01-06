@@ -94,9 +94,37 @@ border: 3px solid #F7F7F7;
     font-size: 25px;
 }
 
+#homeImgPhones{
+    width:100%; 
+    height:90%; 
+    display: none;
+}
+
 @media screen and (max-width: 600px) {
     .navbar {
         display: none;
+    }
+
+    .home{
+        text-align: center;
+    }
+
+    .home .right{
+        float: none;
+        display:none;
+        width: 0%;
+    }
+
+    .home .left{
+        width: 0%;
+        float: none;
+        margin-left: 22%;
+    }
+
+    #homeImgPhones{
+        width:100%; 
+        height:90%; 
+        display:inline;
     }
 
     .mainHeader{
@@ -107,6 +135,10 @@ border: 3px solid #F7F7F7;
         font-size: 18px;
     }
 }
+
+
+
+
 
 .getStartedButton{
     color: white;
