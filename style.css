@@ -103,6 +103,33 @@ border: 3px solid #F7F7F7;
 .mainPhones{
     display: none;
 }
+.left1 {
+    width: 35%;
+    float: left;
+    font-size: 20px;
+    margin-left: 6%;
+    margin-top: 6%;
+}
+
+.right1 {
+    width: 40%;
+    float: right;
+    font-size: 20px;
+    padding-right: 6%;
+    margin-top: 6%;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .left1, .right1 {
+        float: none; 
+        width: auto; 
+        margin-left: 0; 
+        margin-right: 0; 
+        padding-right: 0; 
+    }
+}
+
 
 @media screen and (max-width: 600px) {
     .navbar {
