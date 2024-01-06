@@ -141,7 +141,23 @@ border: 3px solid #F7F7F7;
     }
     
     .subHeader{
+        width: 100%;
         font-size: 18px;
+    }
+
+    /*scroll bar*/
+    body::-webkit-scrollbar{
+    width: 0;
+    display: none;
+    }
+    body::-webkit-scrollbar-track{
+    background: #F7F7F7; 
+    }
+    body::-webkit-scrollbar-thumb{
+    background-color: #7848FF;   
+    border-radius: 0;       
+    border: 0 solid #F7F7F7;
+    display: none;
     }
 }
 
