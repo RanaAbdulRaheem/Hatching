@@ -39,7 +39,7 @@ border: 3px solid #F7F7F7;
     align-items: center; 
 }
 .navbar img {
-    margin-right: 10;  /* This pushes the logo to the very left */
+    margin-left: 100;  /* This pushes the logo to the very left */
 }
 .navbar a {
     float: left;
