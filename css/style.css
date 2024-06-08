@@ -14043,7 +14043,7 @@ body .shop-btn-two:hover {background: var(--purple-blue);}
   content: '';
   width: 100%;
   height: 18px;
-  background: #FFDD99;
+  background: #b6b2ff ;
   position: absolute;
   left: 0;
   bottom: 8%;
@@ -14068,16 +14068,17 @@ body .shop-btn-two:hover {background: var(--purple-blue);}
   padding: 0 160px 0 30px;
 }
 .hero-banner-sixteen form button {
-  position: absolute;
+  position: left;
   right: 8px;
-  top:5px;
+  top:10px;
   bottom: 5px;
   background: #000;
-  width: 150px;
-  border-radius: 5px;
+  width: 280px;
+  height: 90px;
+  border-radius: 50px;
   text-align: center;
   color: #fff;
-  font-size: 17px;
+  font-size: 25px;
   font-weight: 500;
   transition: all 0.3s ease-in-out;
 }
