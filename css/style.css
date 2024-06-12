@@ -584,7 +584,7 @@ body {
 }
 .title-style-eleven h2 {
   font-family: 'gordita';
-  font-size: 58px;
+  font-size: 40px;
   font-weight: 500;
   line-height: 1.29em;
   letter-spacing: -2px;
@@ -9165,7 +9165,7 @@ body .shop-btn-two:hover {background: var(--purple-blue);}
   display: block;
   font-size: 16px;
   font-weight: 500;
-  color: #000;
+  color: #FFFFFF;
   line-height: 52px;
   border: 2px solid #000;
   border-radius: 5px;
@@ -9175,7 +9175,7 @@ body .shop-btn-two:hover {background: var(--purple-blue);}
 .pricing-table-area-six .pr-table-wrapper:hover:before,
 .pricing-table-area-six .pr-table-wrapper.active:before {opacity: 1;}
 .pricing-table-area-six .pr-table-wrapper .trial-button:hover,
-.pricing-table-area-six .pr-table-wrapper.active .trial-button {background: #FFEAA0; border-color: #FFEAA0;}
+.pricing-table-area-six .pr-table-wrapper.active .trial-button {background: #000; border-color: #000;}
 /*-------------- Client Feedback Slider Six ----------------*/
 .clientSliderSix {
   max-width: 1740px;
