@@ -877,12 +877,12 @@ body .theme-btn-thirteen:hover {background: #FF006B;}
 body .theme-btn-fourteen {
   font-family: 'gordita';
   font-size: 17px;
-  line-height: 54px;
+  line-height: 74px;
   background: #000;
-  border-radius: 7px;
+  border-radius: 55px;
   color: #fff;
   letter-spacing: -0.3px;
-  padding: 0 33px;
+  padding: 0 66px;
   transition: all 0.3s ease-in-out;
 }
 body .theme-btn-fourteen:hover {background: #6F6CFF;}
