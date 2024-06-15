@@ -38,7 +38,7 @@
   .hero-banner-fifteen .product-img-holder {width: 600px; height: 600px; right: 5%;}
   .hero-banner-fifteen .product-img-holder .product-img {max-width: 138%;}
   .SC_block_one {width: 300px; height: 300px;}
-  .hero-banner-sixteen .hero-heading {font-size: 65px;}
+  .hero-banner-sixteen .hero-heading {font-size: 75px;}
 }
 @media (min-width: 1200px) and (max-width: 1366px) {
   .hero-banner-two .hero-text-wrapper h1 {font-size: 68px;}
@@ -264,7 +264,7 @@
   .hero-banner-fifteen .product-img-holder {width: 480px; height: 480px; right: 1%;}
   .hero-banner-fifteen .product-img-holder .product-img {max-width: 135%;}
   .title-style-eleven h2 {font-size: 48px;}
-  .hero-banner-sixteen .hero-heading {font-size: 45px;}
+  .hero-banner-sixteen .hero-heading {font-size: 60px;}
 }
 /*(min-width: 992px) and (max-width: 1199px)*/
 
@@ -884,8 +884,8 @@
   .product-block-two .img-holder {height: 300px; margin-bottom: 10px;}
   .shop-discount-subscription .form-wrapper {max-width: 100%; margin-top: 40px;}
   .product-details-one .product-img-tab .nav-link {width: 82px; margin: 20px 10px 0 0;}
-  .hero-banner-sixteen {margin-top: 20px;}
-  .hero-banner-sixteen .hero-heading {font-size: 70px;}
+  .hero-banner-sixteen {margin-top: 50px;}
+  .hero-banner-sixteen .hero-heading {font-size: 40px;}
   .hero-banner-sixteen .hero-heading span:before {height: 10px;}
   .fancy-feature-fortyFive .shapes,.fancy-feature-fortySix .shapes {display: none;}
 }
