@@ -27,6 +27,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<!-- responsive style sheet -->
 		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 		<!-- Fix Internet Explorer ______________________________________-->
 		<!--[if lt IE 9]>
@@ -534,37 +535,90 @@
 
 			<!--
 			=====================================================
-				Footer Style Seven
+				Footer Style Five
 			=====================================================
 			-->
-			<footer class="theme-footer-seven mt-120 md-mt-100">
-				<div class="lg-container">
-
+			<footer class="theme-footer-five mt-130 md-mt-100">
+				<div class="inner-container">
 					<div class="container">
-						<div class="bottom-footer">
-							<div class="row">
-								<div class="col-lg-4 order-lg-1 mb-20">
-									<ul class="d-flex justify-content-center justify-content-lg-start footer-nav">
-										<li><a href="#">Privacy & Terms.</a></li>
-										<li><a href="#">Contact Us</a></li>
-									</ul>
+						<div class="row justify-content-center align-items-center">
+							<div class="col-lg-4">
+								<div class="logo" style="margin-left: 75px;">
+								  <a href="index.html"><img src="images/logo/deski_06.svg" alt=""></a>
 								</div>
-								<div class="col-lg-4 order-lg-3 mb-20">
-									<ul class="d-flex justify-content-center justify-content-lg-end social-icon">
-										<!-- <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li> -->
-										<li><a href="https://www.linkedin.com/company/hatchingapp/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-									</ul>
-								</div>
-								<div class="col-lg-4 order-lg-2 mb-20">
-									<p class="copyright text-center">Made with extra love❤️ @Hatching</p>
-								</div>
+							  </div>
+							<div class="col-lg-4">
+								<div class="title">Find us on Social Media</div>
+								<ul class="d-flex justify-content-center social-icon">
+									<li><a href="https://www.linkedin.com/company/hatchingapp/"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+									<!-- <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> -->
+									<li>
+										<a href="https://discord.gg/gpsQxBCTn5" class="fab fa-discord">
+										</a>
+									  </li>								</ul>
+							</div>
+							<div class="col-lg-4">
+								<div class="title">Contact Us</div>
+								<div class="text-center"><a href="#" class="email">hello@hatchingapp.com</a></div>
 							</div>
 						</div>
 					</div>
-				</div> <!-- /.lg-container -->	
-			</footer> <!-- /.theme-footer-seven -->
-		
+				</div> <!-- /.inner-container -->
+				<p class="copyright">Made with extra love❤️ @Hatching</p>
+			</footer> <!-- /.theme-footer-five -->
+
+
+
+			<!-- Modal Contact Form One -->
+			<div class="modal fade modal-contact-popup-one" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalTitle" aria-hidden="true">
+			  	<div class="modal-dialog modal-dialog-centered" role="document">
+					<main class="main-body modal-content clearfix">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				        	<img src="images/icon/close.svg" alt="">
+				    	</button>
+				    	<!-- <div class="left-side">
+				    		<div class="d-flex flex-column justify-content-between h-100">
+				    			<div class="row">
+					    			<div class="col-xl-10 col-lg-8 m-auto">
+					    				<blockquote>“I never dreamed about success. I worked for it.”</blockquote>
+					    				<span class="bio">—Estée Lauder</span>
+					    			</div>
+					    		</div>
+					    		<img src="images/assets/ils_18.svg" alt="" class="illustration mt-auto">
+				    		</div>
+				    	</div> /.left-side -->
+				    	<div class="right-side">
+				    		<h2 class="form-title">Contact us</h2>
+				    		<form action="#" id="contact-form" action="inc/contact.php" data-toggle="validator">
+								<div class="messages"></div>
+								<div class="row controls">
+									<div class="col-12">
+										<div class="input-group-meta form-group mb-15">
+											<label>Name</label>
+											<input type="text" placeholder="Your Name" name="Fname" required="required" data-error="Name is required.">
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+									<div class="col-12">
+										<div class="input-group-meta form-group mb-35">
+											<label>Email*</label>
+											<input type="email" placeholder="Email Address" name="email" required="required" data-error="Valid email is required.">
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+									<div class="col-12">
+										<div class="input-group-meta form-group mb-25">
+											<textarea placeholder="Your message" name="message" required="required" data-error="Please,leave us a message."></textarea>
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+									<div class="col-12"><button class="theme-btn-seven w-100">Send Message</button></div>
+								</div>
+							</form>
+				    	</div> <!-- /.right-side -->
+					</main> <!-- /.main-body -->
+			  	</div>
+			</div>
 			<!-- Scroll Top Button -->
 			<button class="scroll-top">
 				<i class="fa fa-angle-up" aria-hidden="true"></i>

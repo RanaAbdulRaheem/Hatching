@@ -7731,8 +7731,8 @@ body .shop-btn-two:hover {background: var(--purple-blue);}
   transition: all 0.3s ease-in-out;
 }
 .theme-footer-five .social-icon li a:hover {
-  background: #FF2759;
-  border-color: #FF2759; 
+  background: #b6b2ff  ;
+  border-color: #b6b2ff  ; 
   color: #fff;
 }
 .theme-footer-five .email {color: #000;}
