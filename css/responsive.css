@@ -290,7 +290,7 @@
   .theme-menu-two #mega-menu-holder,.theme-menu-three #mega-menu-holder {margin-left: auto;}
   .theme-main-menu>div {position: static;}
   .theme-menu-two .logo,.theme-menu-three .logo,.theme-menu-five .logo {left: 15px;}
-  .theme-menu-five .right-widget {right: 75px;}
+  .theme-menu-five .right-widget {right: 75px; display: none;}
   .theme-menu-five #mega-menu-holder {margin-left: auto;}
   .main-page-wrapper {padding-top: 99px;}
   .theme-main-menu.sticky-menu.fixed {padding: 20px 15px;}
@@ -1149,7 +1149,7 @@
   .block-style-nineteen .text h4 {font-size: 20px;}
   .fancy-feature-eighteen .tab-content .img-holder .ripple-box {width: 80%; height: 70%; font-size: 20px; background: rgba(0, 0, 0, 0.2);}
   .theme-menu-six .right-widget .signup-btn {display: none;}
-  .theme-menu-six .right-widget .signIn-action {margin-right: 0;}
+  .theme-menu-six .right-widget .signIn-action {display: none;}
   .hero-banner-nine form button {width: 60px; height: 60px;}
   .hero-banner-nine form {height: 60px;}
   .hero-banner-nine form input {width: calc(100% - 80px); padding: 0 20px;}
