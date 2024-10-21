@@ -342,7 +342,7 @@
   --vin-red: #973c56;
 }
 ::selection {
-  background-color: #6f55ff;
+  background-color: #efefef;
   color: #fff;
 }
 body {
@@ -659,7 +659,7 @@ h6 {
 }
 .title-style-seven h2 {
   font-size: 54px;
-  font-weight: 500;
+  font-weight: 550;
   line-height: 1.32em;
 }
 .title-style-seven h2 span {
@@ -764,7 +764,6 @@ h6 {
   padding-bottom: 10px;
 }
 .title-style-eleven h2 {
-  font-family: "gordita";
   font-size: 40px;
   font-weight: 500;
   line-height: 1.29em;
@@ -1009,7 +1008,6 @@ body .theme-btn-eight:hover {
   color: #212121;
 }
 body .theme-btn-nine {
-  font-family: "gordita";
   line-height: 58px;
   border-radius: 50px;
   color: #fff;
@@ -3895,7 +3893,6 @@ body .shop-btn-two:hover {
   width: 100%;
   text-align: left;
   padding: 22px 70px 22px 0;
-  font-family: "Rubik", sans-serif;
   font-size: 30px;
   line-height: 1.4em;
   border: none;
@@ -10832,7 +10829,7 @@ body .shop-btn-two:hover {
   transition: all 0.3s ease-in-out;
 }
 .pricing-table-area-six .pr-table-wrapper .pack-name {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 24px;
   line-height: 35px;
   padding: 0 13px;
@@ -16721,10 +16718,10 @@ body .shop-btn-two:hover {
   margin: 100px 0 0;
 }
 .hero-banner-sixteen .hero-heading {
-  font-weight: 500;
-  font-size: 70px;
+  font-weight: 550;
+  font-size: 75px;
   line-height: 1.144em;
-  letter-spacing: -1px;
+  letter-spacing: -0.5px;
 }
 .hero-banner-sixteen .hero-heading span {
   position: relative;
@@ -16741,7 +16738,7 @@ body .shop-btn-two:hover {
   z-index: -1;
 }
 .hero-banner-sixteen .hero-sub-heading {
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.83em;
   color: #000;
   padding: 35px 0 50px 0;
@@ -16804,7 +16801,7 @@ body .shop-btn-two:hover {
 }
 /*----------------------- ancy Feature Forty Five ---------------*/
 .fancy-feature-fortyFive {
-  background: #e8e8ff;
+  background: #efefef;
   position: relative;
   z-index: 1;
 }
@@ -16919,4 +16916,76 @@ body .shop-btn-two:hover {
 
 .footer-logo-custom {
   margin-left: 75px;
+}
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.dm-serif-display-regular {
+  font-family: "DM Serif Display", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.dm-serif-display-regular-italic {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: italic;
 }
