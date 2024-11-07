@@ -658,7 +658,7 @@ h6 {
   color: rgba(255, 255, 255, 0.4);
 }
 .title-style-seven h2 {
-  font-size: 54px;
+  font-size: 64px;
   font-weight: 550;
   line-height: 1.32em;
 }
@@ -764,7 +764,8 @@ h6 {
   padding-bottom: 10px;
 }
 .title-style-eleven h2 {
-  font-size: 40px;
+  font-family: "gordita";
+  font-size: 58px;
   font-weight: 500;
   line-height: 1.29em;
   letter-spacing: -2px;
@@ -780,7 +781,7 @@ h6 {
   content: "";
   width: 100%;
   height: 12px;
-  background: #ffdd99;
+  background: rgb(90 49 245 / 29%);
   position: absolute;
   left: 0;
   bottom: 13%;
@@ -3880,7 +3881,7 @@ body .shop-btn-two:hover {
   margin-bottom: 0;
   border-radius: 0;
   border: none;
-  border-bottom: 2px solid #000;
+  /* border-bottom: 2px solid #000; */
 }
 .accordion-style-two .card .card-header {
   background: transparent;
@@ -16715,11 +16716,16 @@ body .shop-btn-two:hover {
 .hero-banner-sixteen {
   position: relative;
   z-index: 1;
-  margin: 100px 0 0;
+  margin: 60px 0 0;
 }
+
+.hero-banner-one {
+  background-image: url("../images/shape/6.svg");
+}
+
 .hero-banner-sixteen .hero-heading {
-  font-weight: 550;
-  font-size: 75px;
+  font-weight: 600;
+  font-size: 82px;
   line-height: 1.144em;
   letter-spacing: -0.5px;
 }
@@ -16738,9 +16744,9 @@ body .shop-btn-two:hover {
   z-index: -1;
 }
 .hero-banner-sixteen .hero-sub-heading {
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.83em;
-  color: #000;
+  color: #495460;
   padding: 35px 0 50px 0;
 }
 .hero-banner-sixteen form {
@@ -16801,7 +16807,7 @@ body .shop-btn-two:hover {
 }
 /*----------------------- ancy Feature Forty Five ---------------*/
 .fancy-feature-fortyFive {
-  background: #efefef;
+  background: #f3f7fa;
   position: relative;
   z-index: 1;
 }
@@ -16831,6 +16837,11 @@ body .shop-btn-two:hover {
   font-size: 24px;
   margin: 30px 0 20px;
 }
+
+.block-style-fortyOne {
+  background: #432cf2;
+}
+
 .block-style-fortyOne p {
   font-size: 20px;
   line-height: 1.75em;
@@ -16901,6 +16912,7 @@ body .shop-btn-two:hover {
   width: auto; /* Maintain the aspect ratio */
   object-fit: contain; /* Ensures the entire logo fits within the bounds */
   display: block;
+  aspect-ratio: 3/2;
 }
 
 .slick-track {
@@ -16909,7 +16921,7 @@ body .shop-btn-two:hover {
 }
 
 .hero-banner-custom {
-  border: 3px solid #333;
+  border: 6px solid #333;
   border-radius: 20px;
   overflow: hidden;
 }
@@ -16988,4 +17000,57 @@ body .shop-btn-two:hover {
   font-family: "DM Serif Display", serif;
   font-weight: 400;
   font-style: italic;
+}
+
+.ff-public-sans {
+  font-family: "Public Sans", sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.heading-wrapper {
+  max-width: 80%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.subheading-wrapper {
+  max-width: 60%;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.tagline-wrapper {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 12px 20px;
+  border-radius: 40px;
+  border: 1px solid #5a31f5;
+  margin-bottom: 12px;
+}
+
+.tagline-wrapper h3 {
+  font-size: 14px;
+  color: #5a31f5;
+}
+
+.banner-wrapper-02 {
+  width: 70%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.banner-wrapper-02 h2 {
+  color: #fff;
+  font-size: 64px;
+}
+
+.text-xs {
+  font-size: 12px;
 }
