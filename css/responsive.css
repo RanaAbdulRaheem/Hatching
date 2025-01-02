@@ -1950,6 +1950,9 @@
   .pricing-table-area-four .pr-table-wrapper.most-popular:after {
     right: 6%;
   }
+  .pricing-table-area-six .pr-table-wrapper.most-popular:after {
+    right: 6%;
+  }
   .client-feedback-slider-four .inner-container {
     padding: 60px 0;
   }
@@ -3473,6 +3476,7 @@
   .pricing-section-one .pricing-table-area .shape-two,
   .hero-banner-five .shapes,
   .pricing-table-area-four .pr-table-wrapper.most-popular:after,
+  .pricing-table-area-six .pr-table-wrapper.most-popular:after,
   .title-style-five h2 span:before,
   .fancy-feature-fifteen .bg-wrapper .shapes {
     display: none;
