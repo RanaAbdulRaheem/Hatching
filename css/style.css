@@ -8975,7 +8975,19 @@ body .shop-btn-two:hover {
   position: absolute;
   top: -97px;
   right: -87px;
+  z-index: 10;
 }
+
+/* move to the pricing table area six */
+.pricing-table-area-six .pr-table-wrapper.most-popular:after {
+  content: url(../images/shape/populer-tag.svg);
+  position: absolute;
+  top: -97px;
+  right: -87px;
+  z-index: 10;
+}
+
+
 .pricing-table-area-four .pr-table-wrapper .pack-name {
   font-weight: 500;
   font-size: 28px;
