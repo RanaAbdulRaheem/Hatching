@@ -16936,6 +16936,7 @@ body .shop-btn-two:hover {
   border: 6px solid #333;
   border-radius: 20px;
   overflow: hidden;
+  margin-top: 20px;
 }
 
 .footer-logo-custom {
