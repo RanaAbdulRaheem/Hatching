@@ -353,7 +353,7 @@ body {
   font-family: 'gilroy-light';
   font-family: 'gilroy-ultralight';
         */
-  font-family: "Roboto", sans-serif;
+  font-family: "Outfit", sans-serif;
   font-weight: normal;
   font-size: 18px;
   position: relative;
@@ -415,8 +415,8 @@ h6 {
 .font-slab {
   font-family: "Roboto Slab", serif !important;
 }
-.font-gordita {
-  font-family: "gordita" !important;
+.font-outfit {
+  font-family: "outfit" !important;
 }
 .font-recoleta {
   font-family: "Recoleta" !important;
@@ -764,9 +764,9 @@ h6 {
   padding-bottom: 10px;
 }
 .title-style-eleven h2 {
-  font-family: "gordita";
+  font-family: "Outfit";
   font-size: 58px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.29em;
   letter-spacing: -2px;
 }
@@ -1558,7 +1558,7 @@ body .shop-btn-two:hover {
   z-index: 0;
 }
 .fancy-feature-one .block-style-one {
-  margin-top: 240px;
+  margin-top: 40px;
 }
 .block-style-one .inner-container {
   position: relative;
@@ -1600,32 +1600,32 @@ body .shop-btn-two:hover {
   animation: hvr-ripple-out 2.75s infinite linear;
 }
 .block-style-one .block-meta-data:nth-child(1) .icon-box {
-  border-color: #ff6080;
-  color: #ff6080;
+  border-color: #6B55FF;
+  color: #6B55FF;
 }
 .block-style-one .block-meta-data:nth-child(1) .icon-box:before {
-  border-color: #ffd8e2;
+  border-color: #9c9fff;
 }
 .block-style-one .block-meta-data:nth-child(2) .icon-box {
-  border-color: #02e7e8;
-  color: #02e7e8;
+  border-color: #6B55FF;
+  color: #6B55FF;
 }
 .block-style-one .block-meta-data:nth-child(2) .icon-box:before {
-  border-color: #c6fff6;
+  border-color: #9c9fff;
 }
 .block-style-one .block-meta-data:nth-child(3) .icon-box {
-  border-color: #936dff;
-  color: #936dff;
+  border-color: #6B55FF;
+  color: #6B55FF;
 }
 .block-style-one .block-meta-data:nth-child(3) .icon-box:before {
-  border-color: #e3ddf4;
+  border-color: #9c9fff;
 }
 .block-style-one .block-meta-data:nth-child(4) .icon-box {
-  border-color: #ffba12;
-  color: #ffba12;
+  border-color: #6B55FF;
+  color: #6B55FF;
 }
 .block-style-one .block-meta-data:nth-child(4) .icon-box:before {
-  border-color: #ffe0b8;
+  border-color: #9c9fff;
 }
 .block-style-one .icon-box img {
   margin: 0 auto;
@@ -10400,7 +10400,7 @@ body .shop-btn-two:hover {
 .hero-banner-seven {
   position: relative;
   z-index: 1;
-  margin: 75px 0 0;
+  /* margin: 75px 0 0; */
 }
 .hero-banner-seven .illustration-container {
   position: absolute;
@@ -10410,12 +10410,16 @@ body .shop-btn-two:hover {
 }
 .hero-banner-seven .illustration-container img {
   animation: jumpTwo 6s infinite linear;
+  width: 450px;  
+  height: auto;  
+  margin-right: 100px
 }
 .hero-banner-seven .hero-heading {
-  font-weight: 500;
-  font-size: 100px;
-  line-height: 1.15em;
-  padding-right: 50px;
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 0.85em;
+  padding-right: 70px;
 }
 .hero-banner-seven .hero-heading span {
   position: relative;
@@ -10431,10 +10435,10 @@ body .shop-btn-two:hover {
   z-index: -1;
 }
 .hero-banner-seven .hero-sub-heading {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.5em;
   color: #2f2f2f;
-  padding: 36px 0 58px 0;
+  padding: 32px 0 34px 0;
 }
 .hero-banner-seven form {
   max-width: 550px;
@@ -10479,9 +10483,9 @@ body .shop-btn-two:hover {
   color: #0b0b0b;
 }
 .hero-banner-seven .term-text {
-  font-size: 16px;
+  font-size: 14px;
   color: #979797;
-  margin-top: 22px;
+  /* margin-top: 22px; */
 }
 .hero-banner-seven .download-btn {
   width: 190px;
@@ -11145,7 +11149,7 @@ body .shop-btn-two:hover {
   text-decoration: underline;
 }
 .theme-footer-seven .bottom-footer .copyright {
-  font-size: 16px;
+  font-size: 14px;
   color: #373737;
 }
 .theme-footer-seven .bottom-footer .social-icon a {
@@ -16854,6 +16858,10 @@ body .shop-btn-two:hover {
   background-color: #111111;
 }
 
+.block-style-fortyOne2 {
+  background-color: #ffffff;
+}
+
 .block-style-fortyOne p {
   font-size: 20px;
   line-height: 1.75em;
@@ -17067,3 +17075,146 @@ body .shop-btn-two:hover {
 .text-xs {
   font-size: 12px;
 }
+
+
+.toggle-container {
+  display: inline-flex;
+  border: 2px solid #ccc;
+  border-radius: 50px;
+  overflow: hidden;
+  background-color: #f8f8f8;
+  width: auto;
+  /* Ensure width is set to auto to prevent any overflow or clipping */
+}
+
+.toggle-option {
+  padding: 10px 30px;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+  transition: background-color 0.3s, color 0.3s;
+  flex: 1;
+  text-align: center;
+  display: inline-block;
+  /* Ensure the button has proper display property */
+}
+
+.toggle-option {
+  position: relative;
+  z-index: 10;
+  /* Ensure button is on top */
+}
+
+.toggle-option.active {
+  background-color: #111111;
+  color: white;
+}
+
+.toggle-option:not(.active) {
+  color: black;
+}
+
+.toggle-option:hover {
+  background-color: #cac5c5;
+}
+
+.pricing-toggle {
+  margin-bottom: 20px;
+}
+
+/* Tab pane hidden by default */
+.tab-pane {
+  display: none;
+}
+
+/* Active tab pane shown */
+.tab-pane.active {
+  display: block;
+}
+
+.svg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+}
+
+.svg-icon {
+  margin: 5px;
+}
+
+.purple-text {
+  color: #5A32F5;
+}
+
+
+.top-banner {
+  background-color: #5a31f5; 
+  color: #ffffff;
+  text-align: center;
+  padding: 7px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-banner a.learn-more {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.top-banner .close-banner {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  color: white;
+}
+
+body {
+  padding-top: 50px; 
+}
+
+.new-badge {
+  background-color: #5a31f5;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 2px 5px;
+  border-radius: 5px;
+  margin-left: 1px;
+  vertical-align: middle;
+}
+
+.rounded-image {
+  width: 100%; /* Or whatever width you need */
+  border-radius: 10px; /* Adjust this value for the roundness */
+}
+
+.waitlist-container {
+    width: 100%;
+    height: 100%;
+    /* min-height: 400px;  */
+    /* position: relative; */
+    margin-left: -140px;
+    /* margin-top: 25px; */
+}
+
+.waitlist-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
