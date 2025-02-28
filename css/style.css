@@ -1600,29 +1600,29 @@ body .shop-btn-two:hover {
   animation: hvr-ripple-out 2.75s infinite linear;
 }
 .block-style-one .block-meta-data:nth-child(1) .icon-box {
-  border-color: #6B55FF;
-  color: #6B55FF;
+  border-color: #6b55ff;
+  color: #6b55ff;
 }
 .block-style-one .block-meta-data:nth-child(1) .icon-box:before {
   border-color: #9c9fff;
 }
 .block-style-one .block-meta-data:nth-child(2) .icon-box {
-  border-color: #6B55FF;
-  color: #6B55FF;
+  border-color: #6b55ff;
+  color: #6b55ff;
 }
 .block-style-one .block-meta-data:nth-child(2) .icon-box:before {
   border-color: #9c9fff;
 }
 .block-style-one .block-meta-data:nth-child(3) .icon-box {
-  border-color: #6B55FF;
-  color: #6B55FF;
+  border-color: #6b55ff;
+  color: #6b55ff;
 }
 .block-style-one .block-meta-data:nth-child(3) .icon-box:before {
   border-color: #9c9fff;
 }
 .block-style-one .block-meta-data:nth-child(4) .icon-box {
-  border-color: #6B55FF;
-  color: #6B55FF;
+  border-color: #6b55ff;
+  color: #6b55ff;
 }
 .block-style-one .block-meta-data:nth-child(4) .icon-box:before {
   border-color: #9c9fff;
@@ -8987,7 +8987,6 @@ body .shop-btn-two:hover {
   z-index: 10;
 }
 
-
 .pricing-table-area-four .pr-table-wrapper .pack-name {
   font-weight: 500;
   font-size: 28px;
@@ -10410,9 +10409,9 @@ body .shop-btn-two:hover {
 }
 .hero-banner-seven .illustration-container img {
   animation: jumpTwo 6s infinite linear;
-  width: 450px;  
-  height: auto;  
-  margin-right: 100px
+  width: 450px;
+  height: auto;
+  margin-right: 100px;
 }
 .hero-banner-seven .hero-heading {
   margin-top: 50px;
@@ -16854,9 +16853,9 @@ body .shop-btn-two:hover {
   margin: 30px 0 20px;
 }
 
-.block-style-fortyOne {
+/* .block-style-fortyOne {
   background-color: #111111;
-}
+} */
 
 .block-style-fortyOne2 {
   background-color: #ffffff;
@@ -17076,7 +17075,6 @@ body .shop-btn-two:hover {
   font-size: 12px;
 }
 
-
 .toggle-container {
   display: inline-flex;
   border: 2px solid #ccc;
@@ -17146,12 +17144,11 @@ body .shop-btn-two:hover {
 }
 
 .purple-text {
-  color: #5A32F5;
+  color: #5a32f5;
 }
 
-
 .top-banner {
-  background-color: #5a31f5; 
+  background-color: #5a31f5;
   color: #ffffff;
   text-align: center;
   padding: 7px 20px;
@@ -17184,7 +17181,7 @@ body .shop-btn-two:hover {
 }
 
 body {
-  padding-top: 50px; 
+  padding-top: 50px;
 }
 
 .new-badge {
@@ -17204,17 +17201,20 @@ body {
 }
 
 .waitlist-container {
-    width: 100%;
-    height: 100%;
-    /* min-height: 400px;  */
-    /* position: relative; */
-    margin-left: -140px;
-    /* margin-top: 25px; */
+  width: 100%;
+  height: 100%;
+  /* min-height: 400px;  */
+  /* position: relative; */
+  margin-left: -140px;
+  /* margin-top: 25px; */
 }
 
 .waitlist-iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
+.banner-top {
+  top: 40px;
+}

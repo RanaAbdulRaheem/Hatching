@@ -1,0 +1,15 @@
+@media (max-width: 991px) {
+  .hero-banner-seven {
+    margin-top: 0px;
+  }
+  .hero-banner-seven .illustration-container {
+    margin: 0 auto 0px;
+    max-width: 60%;
+  }
+  .banner-top {
+    top: 66px;
+  }
+}
+.black-bg {
+  background: #111111;
+}
