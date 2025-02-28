@@ -9,7 +9,19 @@
   .banner-top {
     top: 66px;
   }
+
+  .about-heading {
+    margin-top: 76px;
+    padding-bottom: 25px !important;
+  }
 }
 .black-bg {
   background: #111111;
+}
+
+.pt-0 {
+  padding-top: 0 !important;
+}
+.about-heading {
+  padding-bottom: 120px;
 }
