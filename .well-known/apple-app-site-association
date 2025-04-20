@@ -4,7 +4,9 @@
     "details": [
       {
         "appID": "M5DRFLMMTZ.com.hatching.hatchingapp",
-        "paths": ["/callback"]
+        "paths": [
+          "/callback"
+        ]
       }
     ]
   }
